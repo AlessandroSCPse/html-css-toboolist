@@ -1,0 +1,112 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Common */
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.btn-blue {
+    background-color: #14aaf5;
+    color: #fff;
+    border-color: #136ac3;
+    border-width: 1px;
+}
+.btn-white {
+    background-color: #fff;
+    color: gray;
+    border-color: gray;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 10px;
+}
+.logo {
+    vertical-align: middle;
+}
+.logo-text {
+    font-size: 38px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+/* Fine Header */
+
+/* Main */
+main {
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+}
+.top {
+    border-bottom: 1px solid #f6f8f9;
+    padding: 10px 40px;
+}
+
+.list-container {
+    padding: 30px 40px;
+}
+.list-container li {
+    padding: 15px 0;
+}
+.list-container .sublist li {
+    padding: 7px 0;
+}
+.list-container .row-icon {
+    vertical-align: middle;
+}
+.list-container h3 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+}
+
+.list-container .todo-icon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+    border-width: 1px;
+    border-style: solid;
+}
+.list-container .done {
+    color: green;
+    border-color: green;
+}
+.list-container .not-done {
+    color: red;
+    border-color: red;
+}
+
+.list-container .tag {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 25px;
+    font-size: 12px;
+}
+.tag-blue {
+    background-color: blue;
+}
+.tag-pink {
+    background-color: pink;
+}
+/* Fine Main */
+
